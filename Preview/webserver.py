@@ -2,7 +2,7 @@ import os,sys
 from http.server import HTTPServer,CGIHTTPRequestHandler
 
 webdir='.'
-port=80
+port=8010
 
 os.chdir(webdir)
 srvraddr=("",port)
